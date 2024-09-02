@@ -9,8 +9,6 @@ A aplicação web GreenSpark tem o intuito de ajudar pequenas e médias empresas
 
 
 Lofis:
-História 1:
-![GreenSpark_Exemplo_Historia1](https://github.com/user-attachments/assets/f559d0dd-6d31-4d48-acb7-8793c700d635)
 
 
 ![Greenspark_Exemplo_Home](https://github.com/user-attachments/assets/641f01e4-d066-4ab1-ae4b-2c990d576f2c)
@@ -21,7 +19,7 @@ História 2 e 7:
 ![Siderúrgica_Exemplo_Historia2_e_7](https://github.com/user-attachments/assets/1e873bbf-e7d1-4e6f-b750-a4de3507ec9b)
 
 
-
+![GreenSpark_Exemplo_Historia1](https://github.com/user-attachments/assets/f559d0dd-6d31-4d48-acb7-8793c700d635)
 
 
 
