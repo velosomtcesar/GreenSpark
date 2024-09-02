@@ -24,6 +24,7 @@ História 2 e 7:
 ![Siderúrgica_Exemplo_Historia2_e_7](https://github.com/user-attachments/assets/1e873bbf-e7d1-4e6f-b750-a4de3507ec9b)
 
 
+https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874ec1ed49d108B1CBEB/green-spark-projeto-fds
 
 
 
