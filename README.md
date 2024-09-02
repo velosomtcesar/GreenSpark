@@ -8,6 +8,10 @@ A aplicação web GreenSpark tem o intuito de ajudar pequenas e médias empresas
 Lofis:
 
 
+![Trello](https://github.com/user-attachments/assets/a39e9887-a622-4af3-8afa-54eb3c4ccf1e)
+
+
+
 
 
 
