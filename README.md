@@ -5,11 +5,6 @@ Integrantes da equipe: Matheus Veloso, Caio Felipe, Caio Marques, Cauê Prado e 
 A aplicação web GreenSpark tem o intuito de ajudar pequenas e médias empresas buscar soluções de energia limpas de acordo com a sua realidade.
 
 
-Nosso Trello:
-
-
-![Trello](https://github.com/user-attachments/assets/a39e9887-a622-4af3-8afa-54eb3c4ccf1e)
-![Trello Backlog](https://github.com/user-attachments/assets/18775964-e59b-4714-945c-0b1005f02b09)
 
 
 
@@ -18,13 +13,30 @@ História 1:
 ![GreenSpark_Exemplo_Historia1](https://github.com/user-attachments/assets/f559d0dd-6d31-4d48-acb7-8793c700d635)
 
 
+![Greenspark_Exemplo_Home](https://github.com/user-attachments/assets/641f01e4-d066-4ab1-ae4b-2c990d576f2c)
+
 ![Siderúrgica2_Exemplo_Perfil](https://github.com/user-attachments/assets/7521c25c-b998-4ab4-bec5-fd6a0c6341fb)
 
 História 2 e 7:
 ![Siderúrgica_Exemplo_Historia2_e_7](https://github.com/user-attachments/assets/1e873bbf-e7d1-4e6f-b750-a4de3507ec9b)
 
 
+
+
+
+
+
+
+
+Nosso Trello:
+
+
+![Trello](https://github.com/user-attachments/assets/a39e9887-a622-4af3-8afa-54eb3c4ccf1e)
+![Trello Backlog](https://github.com/user-attachments/assets/18775964-e59b-4714-945c-0b1005f02b09)
+
 https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874ec1ed49d108B1CBEB/green-spark-projeto-fds
+
+
 
 
 
