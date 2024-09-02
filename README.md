@@ -4,6 +4,34 @@ Integrantes da equipe: Matheus Veloso, Caio Felipe, Caio Marques, Cauê Prado e 
 
 A aplicação web GreenSpark tem o intuito de ajudar pequenas e médias empresas buscar soluções de energia limpas de acordo com a sua realidade.
 
+
+Lofis:
+
+
+
+
+
+
+
+
+
+
+
+
+Nosso Trello:
+
+
+
+
+
+
+
+
+
+
+
+
+
 Nossas histórias:
 
 1 - Como proprietário de uma pequena empresa, quero inserir meu orçamento disponível na aplicação, para que eu possa encontrar soluções de energia limpa que se encaixem no orçamento da minha empresa.
