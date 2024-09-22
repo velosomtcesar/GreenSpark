@@ -5,23 +5,23 @@
   <h1 class="mb-4">Usuários Cadastrados</h1>
 
   <div class="table-responsive">
-    <table class="table table-bordered tabled striped table-hover">
-      <thead class="table dark"></thead>
-      <tr>
-        <th>ID</th>
-        <th>Nome</th>
-        <th>Idade</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for usuario in usuarios %}
-      <tr>
-        <td>{{ usuario.id_usuario }}</td>
-        <td>{{ usuario.nome }}</td>
-        <td>{{ usuario.idade }}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
+    <table class="table table-bordered table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Senha</th>  <!-- Trocado para exibir o campo de senha -->
+        </tr>
+      </thead>
+      <tbody>
+        {% for usuario in usuarios %}
+        <tr>
+          <td>{{ usuario.id_usuario }}</td>
+          <td>{{ usuario.nome }}</td>
+          <td>{{ usuario.senha }}</td>  <!-- Exibindo a senha do usuário -->
+        </tr>
+        {% endfor %}
+      </tbody>
     </table>
   </div>
 </div>

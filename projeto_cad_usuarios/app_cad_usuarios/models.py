@@ -1,10 +1,6 @@
 from django.db import models
 
-# Create your models here.
-
 class Usuario(models.Model):
     id_usuario = models.AutoField(primary_key=True)
-    nome = models.TextField(max_length=255)
-    idade = models.IntegerField()
-
-//1
+    nome = models.CharField(max_length=255)  # Nome de usuário
+    senha = models.CharField(max_length=255)  # Campo para armazenar a senha (criptografada)
