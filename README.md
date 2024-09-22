@@ -62,7 +62,7 @@ https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874
 
 Nossas histórias:
 
-1 - Como proprietário de uma pequena empresa, quero inserir meu orçamento disponível na aplicação, para que eu possa encontrar soluções de energia limpa que se encaixem no orçamento da minha empresa.
+1(revisada) - Como interessado em soluções de energia limpa gostaria de me cadastrar nessa aplicação.
 
 2 - Como gerente de operações de uma pequena empresa quero acessar uma lista de soluções de energia limpa que ofereçam fácil instalação e que não comprometam o fluxo atual da empresa.
 
