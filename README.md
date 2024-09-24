@@ -38,6 +38,20 @@ https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874
 
 
 
+Issue/Bugtracker:
+
+Bug 1 - Após clicar o botão da cadastro a tela de Usuário Cadastrado aparece mesmo sem ter colocado as informações e registrado de fato.
+Bug 2 - Após o login do usuário, não leva a nenhuma tela.
+
+
+Histórias em Produção:
+
+3 - Como Usuário quero uma Listagem das Fontes de Energia e o seus Preços
+2- Como Usuário quero uma Tela de Cadastro Funcional
+
+Histórias Concluídas:
+
+1- Como Usuário quero uma Tela de Login Funcional
 
 
 
@@ -51,33 +65,3 @@ https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874
 
 
 
-
-
-
-
-
-
-
-
-
-Nossas histórias:
-
-1(revisada) - Como interessado em soluções de energia limpa gostaria de me cadastrar nessa aplicação.
-
-2 - Como gerente de operações de uma pequena empresa quero acessar uma lista de soluções de energia limpa que ofereçam fácil instalação e que não comprometam o fluxo atual da empresa.
-
-3 - Como dono de um restaurante quero me adequar a nova realidade com soluções de energia limpa que reflitam nossos valores sustentáveis.
-
-4 - Como responsável financeiro quero procurar meios para diminuir os custos de operação unindo a sustentabilidade.
-
-5 - Como gerente de logística quero adequar a empresa ao uso de transportes elétricos, e carrega-los em estações de carregamento com painéis solares, sempre adequando o orçamento.
-
-6 - Como empreendedor quero procurar fornecedores que vendam soluções de energia limpa a preço de custo e eu possa revender para pequenos negócios.
-
-7 - Como responsável pela qualidade dos equipamentos quero saber as avaliações quanto a durabilidade de soluções de energia limpa.
-
-8 - Como consultor de soluções sustentáveis quero oferecer aos meus cliente soluções de energia limpa que se adequem a sua realidade.
-
-9 - Como proprietário de uma fábrica de pequeno porte quero saber quais soluções de energia limpa melhor se encaixam a pequenos negócios.
-
-10 - Como social mídia da empresa preciso garantir que aquelas soluções são certificadas como sustentáveis.
