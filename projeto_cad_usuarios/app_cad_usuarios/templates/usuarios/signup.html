@@ -2,10 +2,9 @@
 
 {% block conteudo %}
 <div class="container mt-5 d-flex flex-column align-items-center justify-content-center" style="min-height: 80vh;">
-  <!-- Nome "Green Spark" centralizado e grande -->
+ 
   <h1 class="display-3 text-success fw-bold text-center mb-5">Green Spark</h1>
 
-  <!-- Formulário de cadastro -->
   <div class="col-md-6">
     <div class="card p-4 shadow-lg" style="border-color: #228B22;">
       <div class="card-body">
@@ -13,25 +12,21 @@
 
         <form method="POST">
           {% csrf_token %}
-          <!-- Campo Nome de Usuário -->
           <div class="mb-3">
             <label for="id_username" class="form-label text-success">Nome de usuário</label>
-            <input type="text" name="username" id="id_username" class="form-control" placeholder="Digite seu nome de usuário" required>
+            <input type="text" name="nome" id="id_username" class="form-control" placeholder="Digite seu nome de usuário" required>
           </div>
 
-          <!-- Campo Senha -->
           <div class="mb-3">
             <label for="id_password1" class="form-label text-success">Senha</label>
             <input type="password" name="password1" id="id_password1" class="form-control" placeholder="Digite sua senha" required>
           </div>
 
-          <!-- Campo Confirmação de Senha -->
           <div class="mb-3">
             <label for="id_password2" class="form-label text-success">Confirme a senha</label>
             <input type="password" name="password2" id="id_password2" class="form-control" placeholder="Confirme sua senha" required>
           </div>
 
-          <!-- Mensagens de erro se as senhas não coincidem -->
           {% if messages %}
           <div class="alert alert-danger">
             {% for message in messages %}

@@ -2,16 +2,15 @@
 
 {% block conteudo %}
 <div class="container mt-5 d-flex flex-column align-items-center justify-content-center" style="min-height: 80vh;">
-  <!-- Nome "Green Spark" centralizado e grande -->
+  
   <h1 class="display-3 text-success fw-bold text-center mb-5">Green Spark</h1>
 
-  <!-- Formulário de login -->
   <div class="col-md-6">
     <div class="card p-4 shadow-lg" style="border-color: #228B22;">
       <div class="card-body">
         <h3 class="card-title text-center text-success mb-4">Login</h3>
 
-        <form method="POST" action="{% url 'listagem_usuarios' %}">
+        <form method="POST" action="{% url 'home' %}">
           {% csrf_token %}
           <div class="mb-3">
             <label for="username" class="form-label text-success">Usuário</label>
@@ -28,7 +27,6 @@
           </div>
         </form>
 
-        <!-- Botão para redirecionar ao cadastro -->
         <div class="mt-3 text-center">
           <a href="{% url 'signup' %}" class="btn btn-outline-success">Cadastre-se</a>
         </div>
@@ -37,4 +35,5 @@
   </div>
 </div>
 {% endblock %}
+
 

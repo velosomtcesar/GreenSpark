@@ -18,11 +18,10 @@ from django.urls import path
 from app_cad_usuarios import views
 
 urlpatterns = [
-    path('',views.home,name='home'),
-
-    path('signup/',views.signup , name='signup'),
-
-    path('usuarios/',views.usuarios,name='listagem_usuarios')
+    path('', views.home, name='home'),
+    path('signup/', views.signup, name='signup'),
+    path('usuarios/', views.usuarios, name='listagem_usuarios'),
+    path('sucesso/', views.sucesso, name='sucesso'),  
 ]
 
 

@@ -2,6 +2,103 @@
 
 {% block conteudo %}
 <div class="container mt-5 text-center">
-  <h1>Sucesso!</h1>
+  <h1 class="text-success">Login bem-sucedido!</h1>
+  <p>Bem-vindo ao Green Spark, você fez login com sucesso.</p>
+
+  <h2 class="mt-4">Soluções de Energia Sustentável:</h2>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card shadow-lg mb-4">
+        <div class="card-body">
+          <h5 class="card-title text-success">Painel Solar</h5>
+          <p class="card-text">Sistema de energia solar para residências e empresas, que converte luz solar em eletricidade.</p>
+          <p class="card-text"><strong>Preço:</strong> R$ 20.000,00</p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#solucao1Modal">
+            Ver Detalhes
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-lg mb-4">
+        <div class="card-body">
+          <h5 class="card-title text-success">Turbina Eólica</h5>
+          <p class="card-text">Aproveite o vento para gerar eletricidade com uma turbina eólica, ideal para áreas com boa circulação de vento.</p>
+          <p class="card-text"><strong>Preço:</strong> R$ 50.000,00</p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#solucao2Modal">
+            Ver Detalhes
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-lg mb-4">
+        <div class="card-body">
+          <h5 class="card-title text-success">Energia Geotérmica</h5>
+          <p class="card-text">Utiliza o calor natural do subsolo para gerar eletricidade, uma solução eficiente e sustentável.</p>
+          <p class="card-text"><strong>Preço:</strong> R$ 70.000,00</p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#solucao3Modal">
+            Ver Detalhes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="solucao1Modal" tabindex="-1" aria-labelledby="solucao1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="solucao1ModalLabel">Painel Solar - Detalhes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          O sistema de energia solar converte a luz solar diretamente em eletricidade usando painéis solares de alta eficiência. Ideal para quem busca reduzir a dependência de redes elétricas tradicionais e diminuir custos com eletricidade a longo prazo.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="solucao2Modal" tabindex="-1" aria-labelledby="solucao2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="solucao2ModalLabel">Turbina Eólica - Detalhes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          A turbina eólica aproveita a energia do vento para gerar eletricidade. Ideal para áreas com boa ventilação, essa solução sustentável é uma excelente opção para quem quer gerar energia limpa e renovável.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="solucao3Modal" tabindex="-1" aria-labelledby="solucao3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="solucao3ModalLabel">Energia Geotérmica - Detalhes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          O sistema de energia geotérmica utiliza o calor proveniente do interior da Terra para gerar eletricidade. É uma solução altamente eficiente e ecológica para locais que podem explorar a energia térmica do subsolo.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 {% endblock %}
