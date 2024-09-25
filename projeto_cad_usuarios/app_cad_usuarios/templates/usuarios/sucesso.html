@@ -1,7 +1,6 @@
 {% extends 'usuarios/base.html' %}
 
 {% block conteudo %}
-<!-- Carrinho no canto superior direito -->
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand">Green Spark</a>
@@ -18,30 +17,122 @@
   <h2 class="mt-4">Soluções de Energia Sustentável:</h2>
 
   <div class="row">
-    {% for id, produto in produtos.items %}
     <div class="col-md-4">
-      <div class="card shadow-lg mb-4" style="min-height: 400px;">
+      <div class="card shadow-lg mb-4" style="min-height: 450px;">
         <div class="card-body">
-          <h5 class="card-title text-success">{{ produto.nome }}</h5>
-          <p class="card-text">{{ produto.descricao }}</p>
-          <p class="card-text"><strong>Preço:</strong> R$ {{ produto.preco }}</p>
-          <form method="POST" action="{% url 'adicionar_ao_carrinho' id %}">
+          <h5 class="card-title text-success">Painel Solar</h5>
+          <p class="card-text">Sistema de energia solar para residências e empresas.</p>
+          <p class="card-text"><strong>Preço:</strong> R$ 20.000,00</p>
+          
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#descricaoProduto1">
+            Ver Descrição
+          </button>
+          <form method="POST" action="{% url 'adicionar_ao_carrinho' 1 %}">
             {% csrf_token %}
-            <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
+            <button type="submit" class="btn btn-primary mt-2">Adicionar ao Carrinho</button>
           </form>
         </div>
       </div>
     </div>
-    {% endfor %}
+
+    <div class="col-md-4">
+      <div class="card shadow-lg mb-4" style="min-height: 450px;">
+        <div class="card-body">
+          <h5 class="card-title text-success">Turbina Eólica</h5>
+          <p class="card-text">Gere eletricidade a partir do vento.</p>
+          <p class="card-text"><strong>Preço:</strong> R$ 50.000,00</p>
+          
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#descricaoProduto2">
+            Ver Descrição
+          </button>
+          <form method="POST" action="{% url 'adicionar_ao_carrinho' 2 %}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary mt-2">Adicionar ao Carrinho</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-lg mb-4" style="min-height: 450px;">
+        <div class="card-body">
+          <h5 class="card-title text-success">Energia Geotérmica</h5>
+          <p class="card-text">Aproveite o calor natural da Terra para gerar eletricidade.</p>
+          <p class="card-text"><strong>Preço:</strong> R$ 70.000,00</p>
+          
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#descricaoProduto3">
+            Ver Descrição
+          </button>
+          <form method="POST" action="{% url 'adicionar_ao_carrinho' 3 %}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary mt-2">Adicionar ao Carrinho</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <!-- Modal do Carrinho -->
+  
+
+  
+  <div class="modal fade" id="descricaoProduto1" tabindex="-1" aria-labelledby="descricaoProduto1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="descricaoProduto1Label">Painel Solar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          
+          Os painéis solares convertem a luz solar em energia elétrica utilizável em sua casa ou empresa, reduzindo custos com eletricidade e diminuindo o impacto ambiental.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="descricaoProduto2" tabindex="-1" aria-labelledby="descricaoProduto2Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="descricaoProduto2Label">Turbina Eólica</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          As turbinas eólicas capturam a energia cinética do vento para gerar eletricidade limpa e renovável, ideal para áreas com boa circulação de ar.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="descricaoProduto3" tabindex="-1" aria-labelledby="descricaoProduto3Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="descricaoProduto3Label">Energia Geotérmica</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          A energia geotérmica utiliza o calor interno da Terra para gerar eletricidade, proporcionando uma fonte de energia sustentável e estável ao longo do ano.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="modal fade" id="carrinhoModal" tabindex="-1" aria-labelledby="carrinhoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title text-success" id="carrinhoModalLabel">Carrinho de Compras</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
         </div>
         <div class="modal-body">
           {% if carrinho %}

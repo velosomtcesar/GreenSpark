@@ -17,7 +17,6 @@ def home(request):
         try:
             usuario = Usuario.objects.get(nome=nome)
             if check_password(senha, usuario.senha):
-                # Login successful, set session
                 request.session['usuario_id'] = usuario.id_usuario
                 return redirect('sucesso')
             else:
@@ -29,7 +28,7 @@ def home(request):
 
 def sucesso(request):
     if 'usuario_id' not in request.session:
-        return redirect('home')  # Not logged in, redirect to login page
+        return redirect('home')  
 
     produtos = PRODUTOS
     carrinho = request.session.get('carrinho', [])
@@ -37,7 +36,7 @@ def sucesso(request):
 
 def adicionar_ao_carrinho(request, produto_id):
     if 'usuario_id' not in request.session:
-        return redirect('home')  # Not logged in, redirect to login page
+        return redirect('home')  
 
     produto = PRODUTOS.get(produto_id)
     carrinho = request.session.get('carrinho', [])
@@ -53,7 +52,7 @@ def adicionar_ao_carrinho(request, produto_id):
 
 def remover_do_carrinho(request, produto_id):
     if 'usuario_id' not in request.session:
-        return redirect('home')  # Not logged in, redirect to login page
+        return redirect('home')  
 
     carrinho = request.session.get('carrinho', [])
     carrinho = [item for item in carrinho if item['id'] != produto_id]
@@ -62,11 +61,24 @@ def remover_do_carrinho(request, produto_id):
     return redirect('sucesso')
 
 def signup(request):
-    # Your existing signup logic...
-    # No changes needed here
-    pass
+    if request.method == 'POST':
+        nome = request.POST.get('nome')
+        senha1 = request.POST.get('password1')
+        senha2 = request.POST.get('password2')
+
+        if senha1 != senha2:
+            messages.error(request, 'As senhas não coincidem.')
+            return render(request, 'usuarios/signup.html')
+
+        senha_hash = make_password(senha1)
+
+        novo_usuario = Usuario(nome=nome, senha=senha_hash)
+        novo_usuario.save()
+
+        messages.success(request, 'Usuário cadastrado com sucesso!')
+        return redirect('home') 
+
+    return render(request, 'usuarios/signup.html')
 
 def usuarios(request):
-    # Your existing usuarios logic...
-    # No changes needed here
     pass
