@@ -40,18 +40,18 @@ https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874
 
 Issue/Bugtracker:
 
-Bug 1 - Após clicar o botão da cadastro a tela de Usuário Cadastrado aparece mesmo sem ter colocado as informações e registrado de fato.
-Bug 2 - Após o login do usuário, não leva a nenhuma tela.
-
+Bug 1 - Após clicar o botão da cadastro a tela de Usuário Cadastrado aparece mesmo sem ter colocado as informações e registrado de fato. (resolvido)
+Bug 2 - Após o login do usuário, não leva a nenhuma tela. (Resolvido)
 
 Histórias em Produção:
 
-3 - Como Usuário quero uma Listagem das Fontes de Energia e o seus Preços
-2- Como Usuário quero uma Tela de Cadastro Funcional
 
 Histórias Concluídas:
 
 1- Como Usuário quero uma Tela de Login Funcional
+2- Como Usuário quero uma Tela de Cadastro Funcional
+3 - Como Usuário quero uma Listagem das Fontes de Energia e o seus Preços
+4 - Como usuário quero colocar e retirar produtos do carrinho.
 
 
 
