@@ -5,9 +5,6 @@ Integrantes da equipe: Matheus Veloso, Caio Felipe, Caio Marques, Cauê Prado e 
 A aplicação web GreenSpark tem o intuito de ajudar pequenas e médias empresas buscar soluções de energia limpas de acordo com a sua realidade.
 
 
-
-
-
 Lofis:
 
 
@@ -50,8 +47,13 @@ Histórias Concluídas:
 
 1- Como Usuário quero uma Tela de Login Funcional
 2- Como Usuário quero uma Tela de Cadastro Funcional
-3 - Como Usuário quero uma Listagem das Fontes de Energia e o seus Preços
-4 - Como usuário quero colocar e retirar produtos do carrinho.
+3 -Como Usuário quero uma Listagem das Fontes de Energia e o seus Preços
+4 -Como usuário quero colocar e retirar produtos do carrinho.
+
+Tecnologia utilizadas:
+-Bootstrap
+-Django
+-Python
 
 
 
