@@ -27,7 +27,8 @@ Nosso Trello(Diagrama de atividades:
 
 
 ![image](https://github.com/user-attachments/assets/49a6d821-e430-4dea-b91b-1cbf33abdbb9)
-![image](https://github.com/user-attachments/assets/2c857667-a948-47e9-9b27-6a699e070030)
+![image](https://github.com/user-attachments/assets/04602599-1825-4874-99f3-0db1d9b37f23)
+
 
 
 
