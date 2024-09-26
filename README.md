@@ -26,11 +26,10 @@ História 2 e 7:
 Nosso Trello(Diagrama de atividades:
 
 
-![image](https://github.com/user-attachments/assets/337d9f7b-e640-4bbe-9090-c212c5cd6505)
+![image](https://github.com/user-attachments/assets/49a6d821-e430-4dea-b91b-1cbf33abdbb9)
+![image](https://github.com/user-attachments/assets/2c857667-a948-47e9-9b27-6a699e070030)
 
-![Trello Backlog](https://github.com/user-attachments/assets/18775964-e59b-4714-945c-0b1005f02b09)
 
-https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874ec1ed49d108B1CBEB/green-spark-projeto-fds
 
 
 
@@ -40,6 +39,7 @@ Issue/Bugtracker:
 
 Bug 1 - Após clicar o botão da cadastro a tela de Usuário Cadastrado aparece mesmo sem ter colocado as informações e registrado de fato. (resolvido)
 Bug 2 - Após o login do usuário, não leva a nenhuma tela. (Resolvido)
+Bug 3 - Informação de cadastrado com sucesso sem sentido (Em correção)
 
 Histórias em Produção:
 
