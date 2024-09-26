@@ -23,10 +23,11 @@ História 2 e 7:
 
 
 
-Nosso Trello:
+Nosso Trello(Diagrama de atividades:
 
 
-![Trello](https://github.com/user-attachments/assets/a39e9887-a622-4af3-8afa-54eb3c4ccf1e)
+![image](https://github.com/user-attachments/assets/337d9f7b-e640-4bbe-9090-c212c5cd6505)
+
 ![Trello Backlog](https://github.com/user-attachments/assets/18775964-e59b-4714-945c-0b1005f02b09)
 
 https://trello.com/invite/b/66d5bb8ff11d5087d3802a93/ATTI70ffa3119dbcb5c62cbb874ec1ed49d108B1CBEB/green-spark-projeto-fds
