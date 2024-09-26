@@ -56,6 +56,7 @@ Tecnologia utilizadas:
 -Django
 -Python
 
+Observações: Não utilizamos programação em pares pois não foram encontrados muitos horários compatíveis entre os membros do grupo.
 
 
 
