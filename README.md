@@ -56,7 +56,14 @@ Tecnologia utilizadas:
 -Django
 -Python
 
-Observações: Não utilizamos programação em pares pois não foram encontrados muitos horários compatíveis entre os membros do grupo.
+Observações sobre Programação em Par:
+Diferenças de Experiência ou Nível Técnico 
+- Equipe com Diferenças Técnicas e por isso preferimos trabalhar separadamente em cada área.
+
+Disponibilidade e Horários Conflitantes
+- Equipe com horários conflitantes, resultando em apenas reuniões semanais para confirmação das tasks.
+
+
 
 
 
