@@ -23,7 +23,7 @@ História 2 e 7:
 
 
 
-Nosso Jira(Diagrama de atividades):
+Nosso Jira:
 
 
 ![image](https://github.com/user-attachments/assets/49a6d821-e430-4dea-b91b-1cbf33abdbb9)
