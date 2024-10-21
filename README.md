@@ -57,6 +57,7 @@ Tecnologia utilizadas:
 - Python
 
 Observações sobre Programação em Par:
+
 Diferenças de Experiência ou Nível Técnico 
 - Equipe com Diferenças Técnicas e por isso preferimos trabalhar separadamente em cada área.
 
