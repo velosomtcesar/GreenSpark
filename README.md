@@ -23,7 +23,7 @@ História 2 e 7:
 
 
 
-Nosso Trello(Diagrama de atividades:
+Nosso Trello(Diagrama de atividades):
 
 
 ![image](https://github.com/user-attachments/assets/49a6d821-e430-4dea-b91b-1cbf33abdbb9)
@@ -40,9 +40,8 @@ Issue/Bugtracker:
 
 Bug 1 - Após clicar o botão da cadastro a tela de Usuário Cadastrado aparece mesmo sem ter colocado as informações e registrado de fato. (resolvido)
 Bug 2 - Após o login do usuário, não leva a nenhuma tela. (Resolvido)
-Bug 3 - Informação de cadastrado com sucesso sem sentido (Em correção)
+Bug 3 - Informação de cadastrado com sucesso sem sentido (Resolvido)
 
-Histórias em Produção:
 
 
 Histórias Concluídas:
