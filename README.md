@@ -82,6 +82,13 @@ Na parte de desenvolvimento da nossa aplicação(Green Spark), adotamos a Progra
 Decidimos realizar essas sessões de Programação em Par aos finais de semana, pois foi o momento em que todos os integrantes da equipe estavam disponíveis.Esse planejamento garantiu que o trabalho fluísse melhor, sem sobrecarregar o time durante a semana, e nos deu a oportunidade de manter um ritmo produtivo sem comprometer o prazo que pretendemos entregar.
 
 
+## Contribuição individual
+Cauê Prado : Contribuição com tarefas mais externas ao código como o diagrama de atividades e ajuda em uma parte do código da aplicação.
+
+Caio Felipe: Contribuição com a programação em python, django e bootstrap, e programando em conjunto com matheus e tendo cauê como revisor fez com que focasse mais em entregar logo o plano das histórias e depois focar nas correções.
+
+Matheus Veloso: Atuação generalista em front e back end, e banco de dados. Foco em algumas funcionalidades como a inserção de pessoas no banco de dados e adição e remoção a produtos no carrinho.
+
 ## Tecnologias Utilizadas
 
 <p>
