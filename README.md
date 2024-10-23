@@ -1,6 +1,6 @@
 # GreenSpark
 
-Integrantes da equipe: Matheus Veloso, Caio Felipe, Caio Marques, Cauê Prado e Cesar Durando.
+Integrantes da equipe: Matheus Veloso, Caio Felipe, Cauê Prado e Cesar Durando.
 
 A aplicação web GreenSpark tem o intuito de ajudar pequenas e médias empresas buscar soluções de energia limpas de acordo com a sua realidade.
 
