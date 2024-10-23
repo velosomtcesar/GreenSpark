@@ -74,6 +74,13 @@ A aplicação web GreenSpark tem o intuito de ajudar pequenas e médias empresas
   </ul>
 </details>
 
+## Programação em par
+Como/porque utilizamos:
+
+Na parte de desenvolvimento da nossa aplicação(Green Spark), adotamos o pair programming para definir e aplicar as histórias do projeto. Esse formato permitiu que tivéssemos discussões sobre a arquitetura, as funcionalidades e as melhorias da aplicação, garantindo uma troca de ideias entre nós. Além disso, com o trabalho em tempo real(síncrono), conseguimos resolver problemas de forma mais rápida e eficiente, evitando mais erros e aumentando a qualidade da codificação.
+
+Decidimos realizar essas sessões de pair programming aos finais de semana, pois foi o momento em que todos os integrantes da equipe estavam disponíveis.Esse planejamento garantiu que o trabalho fluísse melhor, sem sobrecarregar o time durante a semana, e nos deu a oportunidade de manter um ritmo produtivo sem comprometer o prazo que pretendemos entregar.
+
 
 ## Tecnologias Utilizadas
 
