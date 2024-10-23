@@ -89,6 +89,8 @@ Caio Felipe: Contribuição com a programação em python, django e bootstrap, e
 
 Matheus Veloso: Atuação generalista em front e back end, e banco de dados. Foco em algumas funcionalidades como a inserção de pessoas no banco de dados e adição e remoção a produtos no carrinho.
 
+Cesar Durando: Sketches e documentação.
+
 ## Tecnologias Utilizadas
 
 <p>
